@@ -1,7 +1,8 @@
 public class Kontrakt{
     private String contractProvider;
     private boolean contractGOT;
-    //private String contractReciever;
+    //Her indgår vi 2 Classer som en slags extend for dem. Vi får et object fra både Arrangement og Band
+    //som vi bare kalder arrangement og band.
     private Arrangement arrangement;
     private Band band;
 
